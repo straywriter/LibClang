@@ -8,5 +8,11 @@ enum Enum
   BLUE = RED + GREEN
 };
 
+struct sample
+{
+  sample();
+  abc aa;
+};
+
 
 #endif // __ENUM__

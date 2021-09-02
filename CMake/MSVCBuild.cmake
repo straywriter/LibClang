@@ -28,7 +28,7 @@ get_libclang_sources_and_headers(
   LIBCLANG_PREBUILT_LIBS
   )
   
-include_directories(${LIBCLANG_PREBUILT_DIR}/include)
+include_directories(${LibClangIncludeDir})
 add_clang_library(libclang
   SHARED
   STATIC
